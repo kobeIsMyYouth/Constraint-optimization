@@ -1,0 +1,216 @@
+nohup: 忽略输入
+nohup: 忽略输入
+nohup: 忽略输入
+nohup: 忽略输入
+nohup: 忽略输入
+nohup: 忽略输入
+nohup: 忽略输入
+nohup: 忽略输入
+nohup: 忽略输入
+nohup: 忽略输入
+nohup: 忽略输入
+nohup: 忽略输入
+nohup: 忽略输入
+nohup: 忽略输入
+nohup: 忽略输入
+nohup: 忽略输入
+nohup: 忽略输入
+nohup: 忽略输入
+nohup: 忽略输入
+nohup: 忽略输入
+nohup: 忽略输入
+nohup: 忽略输入
+nohup: 忽略输入
+nohup: 忽略输入
+Traceback (most recent call last):
+  File "G24run.py", line 65, in <module>
+    result1 = statics.st1(solutions1, fitnesses1, G24.f)
+  File "/home/ubuntu/predict/huangting/FD3/tools/statics.py", line 12, in st1
+    res = f(solutions[i])[0]
+  File "/home/ubuntu/predict/huangting/FD3/functions/G24.py", line 12, in f
+    y = -X[0] - X[1]
+IndexError: invalid index to scalar variable.
+Traceback (most recent call last):
+  File "G11run.py", line 65, in <module>
+    result1 = statics.st1(solutions1, fitnesses1, G11.f)
+  File "/home/ubuntu/predict/huangting/FD3/tools/statics.py", line 12, in st1
+    res = f(solutions[i])[0]
+  File "/home/ubuntu/predict/huangting/FD3/functions/G11.py", line 12, in f
+    y = X[0] ** 2 + (X[1] - 1) ** 2
+IndexError: invalid index to scalar variable.
+Traceback (most recent call last):
+  File "G08run.py", line 65, in <module>
+    result1 = statics.st1(solutions1, fitnesses1, G08.f)
+  File "/home/ubuntu/predict/huangting/FD3/tools/statics.py", line 12, in st1
+    res = f(solutions[i])[0]
+  File "/home/ubuntu/predict/huangting/FD3/functions/G08.py", line 15, in f
+    y = -((math.sin(2 * math.pi * X[0])) ** 3) * math.sin(2 * math.pi * X[1]) / ((X[0] ** 3) * (X[0] + X[1]))
+IndexError: invalid index to scalar variable.
+Traceback (most recent call last):
+  File "G06run.py", line 65, in <module>
+    result1 = statics.st1(solutions1, fitnesses1, G06.f)
+  File "/home/ubuntu/predict/huangting/FD3/tools/statics.py", line 12, in st1
+    res = f(solutions[i])[0]
+  File "/home/ubuntu/predict/huangting/FD3/functions/G06.py", line 11, in f
+    y = (X[0] - 10) ** 3 + (X[1] - 20) ** 3
+IndexError: invalid index to scalar variable.
+Traceback (most recent call last):
+  File "G15run.py", line 65, in <module>
+    result1 = statics.st1(solutions1, fitnesses1, G15.f)
+  File "/home/ubuntu/predict/huangting/FD3/tools/statics.py", line 12, in st1
+    res = f(solutions[i])[0]
+  File "/home/ubuntu/predict/huangting/FD3/functions/G15.py", line 11, in f
+    y = 1000-X[0]**2-2*X[1]**2-X[2]**2-X[0]*X[1]-X[0]*X[2]
+IndexError: invalid index to scalar variable.
+Traceback (most recent call last):
+  File "G12run.py", line 65, in <module>
+    result1 = statics.st1(solutions1, fitnesses1, G12.f)
+  File "/home/ubuntu/predict/huangting/FD3/tools/statics.py", line 12, in st1
+    res = f(solutions[i])[0]
+  File "/home/ubuntu/predict/huangting/FD3/functions/G12.py", line 12, in f
+    y = -(100-(X[0]-5)**2-(X[1]-5)**2-(X[2]-5)**2)/100
+IndexError: invalid index to scalar variable.
+Traceback (most recent call last):
+  File "G13run.py", line 65, in <module>
+    result1 = statics.st1(solutions1, fitnesses1, G13.f)
+  File "/home/ubuntu/predict/huangting/FD3/tools/statics.py", line 12, in st1
+    res = f(solutions[i])[0]
+  File "/home/ubuntu/predict/huangting/FD3/functions/G13.py", line 14, in f
+    y = np.exp(X[0]*X[1]*X[2]*X[3]*X[4])
+IndexError: invalid index to scalar variable.
+Traceback (most recent call last):
+  File "G05run.py", line 65, in <module>
+    result1 = statics.st1(solutions1, fitnesses1, G05.f)
+  File "/home/ubuntu/predict/huangting/FD3/tools/statics.py", line 12, in st1
+    res = f(solutions[i])[0]
+  File "/home/ubuntu/predict/huangting/FD3/functions/G05.py", line 13, in f
+    y = 3 * X[0] + 0.000001 * (X[0] ** 3) + 2 * X[1] + (0.000002 / 3) * (X[1] ** 3)
+IndexError: invalid index to scalar variable.
+Traceback (most recent call last):
+  File "G23run.py", line 66, in <module>
+    result1 = statics.st1(solutions1, fitnesses1, G23.f)
+  File "/home/ubuntu/predict/huangting/FD3/tools/statics.py", line 12, in st1
+    res = f(solutions[i])[0]
+  File "/home/ubuntu/predict/huangting/FD3/functions/G23.py", line 14, in f
+    y = -9 * X[4] - 15 * X[7] + 6 * X[0] + 16 * X[1] + 10 * (X[5] + X[6])
+IndexError: invalid index to scalar variable.
+Traceback (most recent call last):
+  File "G04run.py", line 66, in <module>
+    result1 = statics.st1(solutions1, fitnesses1, G04.f)
+  File "/home/ubuntu/predict/huangting/FD3/tools/statics.py", line 12, in st1
+    res = f(solutions[i])[0]
+  File "/home/ubuntu/predict/huangting/FD3/functions/G04.py", line 11, in f
+    y = 5.3578547 * X[2] * X[2] + 0.8356891 * X[0] * X[4] + 37.293239 * X[0] - 40792.141
+IndexError: invalid index to scalar variable.
+Traceback (most recent call last):
+  File "G03run.py", line 65, in <module>
+    result1 = statics.st1(solutions1, fitnesses1, G03.f)
+  File "/home/ubuntu/predict/huangting/FD3/tools/statics.py", line 12, in st1
+    res = f(solutions[i])[0]
+  File "/home/ubuntu/predict/huangting/FD3/functions/G03.py", line 18, in f
+    x_mul *= X[i]
+IndexError: invalid index to scalar variable.
+Traceback (most recent call last):
+  File "G10run.py", line 65, in <module>
+    result1 = statics.st1(solutions1, fitnesses1, G10.f)
+  File "/home/ubuntu/predict/huangting/FD3/tools/statics.py", line 12, in st1
+    res = f(solutions[i])[0]
+  File "/home/ubuntu/predict/huangting/FD3/functions/G10.py", line 14, in f
+    y = X[0] + X[1] + X[2]
+IndexError: invalid index to scalar variable.
+Traceback (most recent call last):
+  File "G21run.py", line 65, in <module>
+    result1 = statics.st1(solutions1, fitnesses1, G21.f)
+  File "/home/ubuntu/predict/huangting/FD3/tools/statics.py", line 12, in st1
+    res = f(solutions[i])[0]
+  File "/home/ubuntu/predict/huangting/FD3/functions/G21.py", line 13, in f
+    y = X[0]
+IndexError: invalid index to scalar variable.
+Traceback (most recent call last):
+  File "G09run.py", line 65, in <module>
+    result1 = statics.st1(solutions1, fitnesses1, G09.f)
+  File "/home/ubuntu/predict/huangting/FD3/tools/statics.py", line 12, in st1
+    res = f(solutions[i])[0]
+  File "/home/ubuntu/predict/huangting/FD3/functions/G09.py", line 15, in f
+    X[5] ** 2) + X[6] ** 4 - 4 * X[5] * X[6] - 10 * X[5] - 8 * X[6]
+IndexError: invalid index to scalar variable.
+Traceback (most recent call last):
+  File "G17run.py", line 65, in <module>
+    result1 = statics.st1(solutions1, fitnesses1, G17.f)
+  File "/home/ubuntu/predict/huangting/FD3/tools/statics.py", line 12, in st1
+    res = f(solutions[i])[0]
+  File "/home/ubuntu/predict/huangting/FD3/functions/G17.py", line 15, in f
+    if X[0] >= 0 and X[0] < 300:
+IndexError: invalid index to scalar variable.
+Traceback (most recent call last):
+  File "G18run.py", line 65, in <module>
+    result1 = statics.st1(solutions1, fitnesses1, G18.f)
+  File "/home/ubuntu/predict/huangting/FD3/tools/statics.py", line 12, in st1
+    res = f(solutions[i])[0]
+  File "/home/ubuntu/predict/huangting/FD3/functions/G18.py", line 12, in f
+    y = -0.5*(X[0]*X[3]-X[1]*X[2]+X[2]*X[8]-X[4]*X[8]+X[4]*X[7]-X[5]*X[6])
+IndexError: invalid index to scalar variable.
+Traceback (most recent call last):
+  File "G01run.py", line 65, in <module>
+    result1 = statics.st1(solutions1, fitnesses1, G01.f)
+  File "/home/ubuntu/predict/huangting/FD3/tools/statics.py", line 12, in st1
+    res = f(solutions[i])[0]
+  File "/home/ubuntu/predict/huangting/FD3/functions/G01.py", line 12, in f
+    y = 5*(X[0]+X[1]+X[2]+X[3])-5*(X[0]**2+X[1]**2+X[2]**2+X[3]**2)-(X[4]+X[5]+X[6]+X[7]+X[8]+X[9]+X[10]+X[11]+X[12])
+IndexError: invalid index to scalar variable.
+Traceback (most recent call last):
+  File "G16run.py", line 65, in <module>
+    result1 = statics.st1(solutions1, fitnesses1, G16.f)
+  File "/home/ubuntu/predict/huangting/FD3/tools/statics.py", line 12, in st1
+    res = f(solutions[i])[0]
+  File "/home/ubuntu/predict/huangting/FD3/functions/G16.py", line 11, in f
+    y1 = X[1] +X[2]+41.6
+IndexError: invalid index to scalar variable.
+Traceback (most recent call last):
+  File "G07run.py", line 65, in <module>
+    result1 = statics.st1(solutions1, fitnesses1, G07.f)
+  File "/home/ubuntu/predict/huangting/FD3/tools/statics.py", line 12, in st1
+    res = f(solutions[i])[0]
+  File "/home/ubuntu/predict/huangting/FD3/functions/G07.py", line 13, in f
+    X[9] - 7) ** 2 + 45
+IndexError: invalid index to scalar variable.
+Traceback (most recent call last):
+  File "G02run.py", line 65, in <module>
+    result1 = statics.st1(solutions1, fitnesses1, G02.f)
+  File "/home/ubuntu/predict/huangting/FD3/tools/statics.py", line 12, in st1
+    res = f(solutions[i])[0]
+  File "/home/ubuntu/predict/huangting/FD3/functions/G02.py", line 23, in f
+    up_left += (math.cos(X[i])) ** 4
+IndexError: invalid index to scalar variable.
+Traceback (most recent call last):
+  File "G14run.py", line 65, in <module>
+    result1 = statics.st1(solutions1, fitnesses1, G14.f)
+  File "/home/ubuntu/predict/huangting/FD3/tools/statics.py", line 12, in st1
+    res = f(solutions[i])[0]
+  File "/home/ubuntu/predict/huangting/FD3/functions/G14.py", line 17, in f
+    y = np.sum([X[i]*(c[i]+np.log(X[i]/(X[0]+X[1]+X[2]+X[3]+X[4]+X[5]+X[6]+X[7]+X[8]+X[9]))) for i in range(10)])
+  File "/home/ubuntu/predict/huangting/FD3/functions/G14.py", line 17, in <listcomp>
+    y = np.sum([X[i]*(c[i]+np.log(X[i]/(X[0]+X[1]+X[2]+X[3]+X[4]+X[5]+X[6]+X[7]+X[8]+X[9]))) for i in range(10)])
+IndexError: invalid index to scalar variable.
+Traceback (most recent call last):
+  File "G22run.py", line 66, in <module>
+    result1 = statics.st1(solutions1, fitnesses1, G22.f)
+  File "/home/ubuntu/predict/huangting/FD3/tools/statics.py", line 12, in st1
+    res = f(solutions[i])[0]
+  File "/home/ubuntu/predict/huangting/FD3/functions/G22.py", line 22, in f
+    y = X[0]
+IndexError: invalid index to scalar variable.
+Traceback (most recent call last):
+  File "G19run.py", line 24, in <module>
+    np.savetxt("./results/" + p + "/FES_3/gbest_" + str(n) + "_1.txt", gbest_1)
+  File "<__array_function__ internals>", line 6, in savetxt
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/numpy/lib/npyio.py", line 1357, in savetxt
+    open(fname, 'wt').close()
+FileNotFoundError: [Errno 2] No such file or directory: './results/G19/FES_3/gbest_15_1.txt'
+Traceback (most recent call last):
+  File "G20run.py", line 24, in <module>
+    np.savetxt("./results/" + p + "/FES_3/gbest_" + str(n) + "_1.txt", gbest_1)
+  File "<__array_function__ internals>", line 6, in savetxt
+  File "/home/ubuntu/anaconda3/lib/python3.7/site-packages/numpy/lib/npyio.py", line 1357, in savetxt
+    open(fname, 'wt').close()
+FileNotFoundError: [Errno 2] No such file or directory: './results/G20/FES_3/gbest_23_1.txt'
